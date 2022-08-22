@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+}
+
+.box {
+    width: 40%;
+}
+
+.box .box1 img {
+    margin-top: 25px;
+    padding: 2px;
+    width: 40%;
+}
+
+.box1 {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+}
+
+.box1 h1 {
+    color: whitesmoke;
+    margin-top: 25px;
+    font-size: 2rem;
+}
+
+.box1 input {
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    border: none;
+    height: 3rem;
+    width: 60%;
+}
+
+.box1 input:focus {
+    border: 2px solid rgb(78, 166, 221);
+}
+
+.box1 button {
+    border: 2px solid rgb(78, 166, 221);
+    transition: all ease 0.5s;
+    justify-content: center;
+    background: transparent;
+    align-items: center;
+    border-radius: 2rem;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    display: flex;
+    height: 3rem;
+    width: 40%;
+}
+
+.box1 button img {
+    width: auto !important;
+    margin: 0 !important;
+    height: 30px;
+}
+
+.box1 button:hover {
+    transform: scale(1.1);
+}
+
+.login {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.login img {
+    width: 30px;
+}
+
+.login button{
+    justify-content: center;
+    background: transparent;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    padding: 4px 32px;
+    cursor: pointer;
+    display: flex;
+    border: none;
+}
+
+.login .face {
+    background-color: rgb(63, 101, 166);
+    transition: all ease 0.5s;
+}
+
+.login .face:hover {
+    background-color: rgb(34, 73, 141);
+}
+
+.login .gmail {
+    background-color: white;
+}
+
+.login .gmail:hover {
+    background-color: rgb(228, 222, 222);
+}
+
+.login .apple {
+    background-color: black;
+}
+
+.login .apple:hover {
+    background-color: rgb(12, 12, 12);
+}
+
+
+.box2 {
+    margin: 20px auto 0 auto;
+    margin-top: 20px;
+    color: white;
+    width: 58%;
+}
+
+.box2 input {
+    background-color: antiquewhite;
+    cursor: pointer;
+}
+
+.box2 .check:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+.text {
+    text-transform: uppercase;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.text:not(:last-child) {
+    margin-top: 20px;
+}
+
+.text:hover {
+    color: rgb(196, 102, 102);
+    cursor: pointer;
+}
+
+.box3 {
+    height: 100%;
+    width: 60%;
+}
+
+.box3 img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    transition: all ease 0.5s;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    width: 80px;
+}
+
+.logo:hover {
+    transform: scale(1.4);
+}
+
